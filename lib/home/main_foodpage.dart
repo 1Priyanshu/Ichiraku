@@ -4,6 +4,7 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:ichiraku/home/food_page_body.dart';
 import 'package:ichiraku/utils/colors.dart';
+import 'package:ichiraku/utils/dimensions.dart';
 import 'package:ichiraku/widgets/big_text.dart';
 
 class MainFoodPage extends StatefulWidget {
@@ -19,10 +20,11 @@ class _MainFoodPageState extends State<MainFoodPage> {
     return Scaffold(
         body: Column(
       children: [
+        //showing the header
         Container(
           child: Container(
-            margin: EdgeInsets.only(top: 45, bottom: 15),
-            padding: EdgeInsets.only(left: 20, right: 20),
+            margin: EdgeInsets.only(top: Dimensions.height45, bottom: Dimensions.height15),
+            padding: EdgeInsets.only(left: Dimensions.height20, right: Dimensions.height20),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -34,19 +36,20 @@ class _MainFoodPageState extends State<MainFoodPage> {
                 Center(
                   child: Text(
                     "Ichiraku", 
-                    style: TextStyle(color: AppColors.iconColor1, fontSize: 30),
+                    style: TextStyle(color: AppColors.iconColor1, fontSize: Dimensions.font30),
                   ) ,
                 ),
                 Center(
                   child: Container(
-                    width: 45,
-                    height: 45,
+                    width: Dimensions.width45,
+                    height: Dimensions.height45,
                     child: Icon(
                       Icons.search,
                       color: Colors.white,
+                      size: Dimensions.iconSize24,
                     ),
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(15),
+                      borderRadius: BorderRadius.circular(Dimensions.radius15),
                       color: Color.fromARGB(255, 243, 33, 79),
                     ),
                   ),
@@ -55,7 +58,11 @@ class _MainFoodPageState extends State<MainFoodPage> {
             ),
           ),
         ),
-        FoodPageBody(),
+        Expanded(child: SingleChildScrollView(
+          child: FoodPageBody(),
+          )
+        )
+        //showing the body
       ],
     ));
   }

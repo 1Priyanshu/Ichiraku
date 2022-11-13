@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:ichiraku/utils/dimensions.dart';
 // import 'package:flutter/src/widgets/container.dart';
 // import 'package:flutter/src/widgets/framework.dart';
 
@@ -7,10 +8,13 @@ class BigText extends StatelessWidget {
   final String text;
   double size;
   TextOverflow overFlow;
-  BigText({Key? key, this.color = const Color(0xFF332d2b),
-  this.size=20, required this.text, 
-  this.overFlow=TextOverflow.ellipsis
-  }): super(key: key);
+  BigText(
+      {Key? key,
+      this.color = const Color(0xFF332d2b),
+      this.size = 20,
+      required this.text,
+      this.overFlow = TextOverflow.ellipsis})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -19,11 +23,10 @@ class BigText extends StatelessWidget {
       overflow: overFlow,
       maxLines: 1,
       style: TextStyle(
-        fontFamily: 'Roboto',
-        color: color,
-        fontSize: size,
-        fontWeight: FontWeight.w400
-      ),
+          fontFamily: 'Roboto',
+          color: color,
+          fontSize: Dimensions.font20,
+          fontWeight: FontWeight.w500),
     );
   }
 }
