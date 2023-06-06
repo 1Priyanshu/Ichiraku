@@ -1,8 +1,10 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:ichiraku/home/food_page_body.dart';
+import 'package:ichiraku/pages/home/food_page_body.dart';
 import 'package:ichiraku/utils/colors.dart';
 import 'package:ichiraku/utils/dimensions.dart';
 import 'package:ichiraku/widgets/big_text.dart';
@@ -23,8 +25,10 @@ class _MainFoodPageState extends State<MainFoodPage> {
         //showing the header
         Container(
           child: Container(
-            margin: EdgeInsets.only(top: Dimensions.height45, bottom: Dimensions.height15),
-            padding: EdgeInsets.only(left: Dimensions.height20, right: Dimensions.height20),
+            margin: EdgeInsets.only(
+                top: Dimensions.height45, bottom: Dimensions.height15),
+            padding: EdgeInsets.only(
+                left: Dimensions.height20, right: Dimensions.height20),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -35,9 +39,11 @@ class _MainFoodPageState extends State<MainFoodPage> {
                 // ),
                 Center(
                   child: Text(
-                    "Ichiraku", 
-                    style: TextStyle(color: AppColors.iconColor1, fontSize: Dimensions.font30),
-                  ) ,
+                    "Ichiraku",
+                    style: TextStyle(
+                        color: AppColors.iconColor1,
+                        fontSize: Dimensions.font30),
+                  ),
                 ),
                 Center(
                   child: Container(
@@ -58,10 +64,10 @@ class _MainFoodPageState extends State<MainFoodPage> {
             ),
           ),
         ),
-        Expanded(child: SingleChildScrollView(
+        Expanded(
+            child: SingleChildScrollView(
           child: FoodPageBody(),
-          )
-        )
+        ))
         //showing the body
       ],
     ));
