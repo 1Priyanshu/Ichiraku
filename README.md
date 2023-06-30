@@ -9,3 +9,8 @@ Ichiraku is a hybrid mobile application developed for Android and iOS platforms.
 - Cart functionality: Users can add items to their cart and view the items in their cart.
 - Order history: Users can view their previous orders.
 - Account section: Users can access and manage their account information.
+
+# Technologies Used
+- Flutter / Dart for Front end
+- laravel (php) as backend
+- -MySql as database
