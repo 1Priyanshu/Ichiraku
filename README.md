@@ -1,16 +1,11 @@
-# ichiraku
+# Ichiraku - Hybrid Food Order App
 
-A new Flutter project.
+Ichiraku is a hybrid mobile application developed for Android and iOS platforms. It allows users to order food from a canteen, browse popular and recommended food items, manage their cart, view order history, and access their account information. Please note that this app does not include payment or delivery systems.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- User authentication: Users can sign up and log in to their accounts.
+- Home page: Displays popular food items and recommendations.
+- Cart functionality: Users can add items to their cart and view the items in their cart.
+- Order history: Users can view their previous orders.
+- Account section: Users can access and manage their account information.
