@@ -17,18 +17,17 @@ Ichiraku is a hybrid mobile application developed for Android and iOS platforms.
 
 ## App Images
 
-_Main Page_
-
+##### Main Page
 <img src="/screenshots/Screenshot_20230630-234137.png" alt="Screenshot 1" width="300px">
 
-_Item Page_
-![Screenshot 1](/screenshots/Screenshot_20230630-234145.png)
+##### Item Page
+<img src="/screenshots/Screenshot_20230630-234145.png" alt="Screenshot 1" width="300px">
 
-_Cart History_
-![Screenshot 1](/screenshots/Screenshot_20230630-234154.png)
+##### Cart History
+<img src="/screenshots/Screenshot_20230630-234154.png" alt="Screenshot 1" width="300px">
 
-_Your Cart_
-![Screenshot 1](/screenshots/Screenshot_20230630-234207.png)
+##### Your Cart
+<img src="/screenshots/Screenshot_20230630-234207.png" alt="Screenshot 1" width="300px">
 
-_Profile_
-![Screenshot 1](/screenshots/Screenshot_20230630-234158.png)
+##### Profile
+<img src="/screenshots/Screenshot_20230630-234158.png" alt="Screenshot 1" width="300px">
