@@ -18,7 +18,8 @@ Ichiraku is a hybrid mobile application developed for Android and iOS platforms.
 ## App Images
 
 _Main Page_
-![Screenshot 1](/screenshots/Screenshot_20230630-234137.png)
+
+<img src="/screenshots/Screenshot_20230630-234137.png" alt="Screenshot 1" width="300px">
 
 _Item Page_
 ![Screenshot 1](/screenshots/Screenshot_20230630-234145.png)
