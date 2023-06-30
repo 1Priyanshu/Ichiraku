@@ -14,3 +14,20 @@ Ichiraku is a hybrid mobile application developed for Android and iOS platforms.
 - Flutter / Dart for Front end
 - laravel (php) as backend
 - -MySql as database
+
+## App Images
+
+_Main Page_
+![Screenshot 1](/screenshots/Screenshot_20230630-234137.png)
+
+_Item Page_
+![Screenshot 1](/screenshots/Screenshot_20230630-234145.png)
+
+_Cart History_
+![Screenshot 1](/screenshots/Screenshot_20230630-234154.png)
+
+_Your Cart_
+![Screenshot 1](/screenshots/Screenshot_20230630-234207.png)
+
+_Profile_
+![Screenshot 1](/screenshots/Screenshot_20230630-234158.png)
