@@ -1,4 +1,4 @@
-# Ichiraku - Hybrid Food Order App
+# Ichiraku - Food Order App
 
 Ichiraku is a hybrid mobile application developed for Android and iOS platforms. It allows users to order food from a canteen, browse popular and recommended food items, manage their cart, view order history, and access their account information. Please note that this app does not include payment or delivery systems.
 
