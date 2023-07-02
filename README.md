@@ -12,8 +12,8 @@ Ichiraku is a hybrid mobile application developed for Android and iOS platforms.
 
 ### Technologies Used
 - Flutter / Dart for Front end
-- laravel (php) as backend
-- -MySql as database
+- Nodejs, expressjs
+- MongoDB, Mongo Atlas
 
 ## App Images
 
